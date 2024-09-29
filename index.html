@@ -2,16 +2,26 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Soundboard</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jagobs super seje soundboard</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Make sure the correct file is linked -->
 </head>
 <body>
-  <h1>My Soundboard</h1>
+  <h1>Jagobs super seje soundboard</h1>
   <div class="soundboard">
-    <button onclick="playSound('sound1.mp3')">Sound 1</button>
-    <button onclick="playSound('sound2.mp3')">Sound 2</button>
-    <!-- Add more buttons as needed -->
+    <!-- Gryffindor (Red) Button -->
+    <button class="gryffindor" onclick="playRandomGryffindorSound()">Gryffindor</button>
+
+    <!-- Slytherin (Green) Button -->
+    <button class="slytherin" onclick="playRandomSlytherinSound()">Slytherin</button>
+
+    <!-- Ravenclaw (Blue) Button -->
+    <button class="ravenclaw" onclick="playRandomRavenclawSound()">Ravenclaw</button>
+
+    <!-- Hufflepuff (Yellow) Button -->
+    <button class="hufflepuff" onclick="playRandomHuffelpufSound()">Hufflepuff</button>
   </div>
+  
   <script src="script.js"></script>
 </body>
 </html>

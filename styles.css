@@ -1,0 +1,84 @@
+/* General styling */
+body {
+  font-family: 'Almendra SC', serif;
+  background-color: #2d2d2d; /* Dark background for magical feel */
+  color: #f5f5f5; /* Light text color */
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #ffcc00; /* Golden color for title */
+  text-shadow: 3px 3px 0 #000; /* Shadow for magical look */
+}
+
+/* Soundboard container */
+.soundboard {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  justify-content: center; /* Center buttons vertically */
+  align-items: center; /* Center buttons horizontally */
+}
+
+button {
+  padding: 15px 30px;
+  margin: 10px 0; /* Adjust margin for vertical spacing */
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  border: 2px solid #f5f5f5; /* Default border color */
+  width: 200px; /* Set a consistent width for all buttons */
+}
+
+/* Gryffindor - Red and gold */
+button.gryffindor {
+  background-color: #7f0909; /* Deep red */
+  color: #d4af37; /* Gold text */
+}
+
+button.gryffindor:hover {
+  background-color: #d4af37; /* Gold on hover */
+  color: #7f0909; /* Red text on hover */
+}
+
+/* Slytherin - Green and silver */
+button.slytherin {
+  background-color: #1a472a; /* Dark green */
+  color: #c0c0c0; /* Silver text */
+}
+
+button.slytherin:hover {
+  background-color: #c0c0c0; /* Silver on hover */
+  color: #1a472a; /* Green text on hover */
+}
+
+/* Ravenclaw - Blue and bronze */
+button.ravenclaw {
+  background-color: #0e1a40; /* Dark blue */
+  color: #b08d57; /* Bronze text */
+}
+
+button.ravenclaw:hover {
+  background-color: #b08d57; /* Bronze on hover */
+  color: #0e1a40; /* Blue text on hover */
+}
+
+/* Hufflepuff - Yellow and black */
+button.hufflepuff {
+  background-color: #f0c75e; /* Bright yellow */
+  color: #000000; /* Black text */
+}
+
+button.hufflepuff:hover {
+  background-color: #000000; /* Black on hover */
+  color: #f0c75e; /* Yellow text on hover */
+}
